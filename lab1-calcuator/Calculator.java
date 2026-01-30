@@ -70,7 +70,18 @@ public class SimpleCalculator {
       in.close();
       }
 }
-  
+/// UML Diagram - Adrian Jae Prado
+// +---------------------+
+// | Simple Calculator   |
+// +---------------------+
+// | - num1: double      |
+// | - num2: double      |
+// | - result: double    |
+// | - operator: char    |
+// | - on: boolean       |
+// +---------------------+
+// | main(String[])      |
+// +---------------------+
 
           
 
