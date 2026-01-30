@@ -13,8 +13,8 @@ public class DotProduct {
     Random r = new Random();
     // create a for loop
     for (int i = 0; i < n; i++){
-        a[i] = rand.nextInt(10);
-        b[i] = rand.nextInt(10);
+        a[i] = r.nextInt(10);
+        b[i] = r.nextInt(10);
     }
 
     // have a new array called c[i] having it be equals to a[i] x b[i]
