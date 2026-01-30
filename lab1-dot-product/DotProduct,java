@@ -1,0 +1,35 @@
+// Adrian Jae Prado CIS-044-32078 Intro to Data Structures Using Java
+import java.util.Random;
+import java.util.Arrays;
+import java.util.*;
+
+public class DotProduct {
+    public static void main(String []args) {
+    int n = 5;
+    int [] a = new int[n];
+    int [] b = new int[n];
+    int [] c = new int[n];
+
+    Random r = new Random();
+    // create a for loop
+    for (int i = 0; i < n; i++){
+        a[i] = rand.nextInt(10);
+        b[i] = rand.nextInt(10);
+    }
+
+    // have a new array called c[i] having it be equals to a[i] x b[i]
+    for (int i  = 0; i < n; i++) {
+        c[i] = a[i] * b[i];
+    }
+
+    // print results
+
+    System.out.println("Array a: " + Arrays.toString(a));
+    System.out.println("Array b: " + Arrays.toString(b));
+    System.out.println("Array c: " + Arrays.toString(c));
+    }
+  }
+
+  
+
+    
